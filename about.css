@@ -1,0 +1,29 @@
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+#keys {
+  display: grid;
+  gap: 10px;
+  padding: 25px;
+  grid-template-columns: repeat(4, 1fr);
+}
+#calculator {
+    width: 500px;
+    background-color: hsl(0, 3%, 42%);
+    border-radius: 10%;
+    overflow: hidden;
+}
+#display {
+    width: 100%;
+    padding: 30px;
+    background-color: hsl(0, 8%, 48%);
+    font-size: 3rem;
+    color: white;
+    border-style: none;
+}
